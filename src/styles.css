@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Amaline;
+  src: url("https://github.com/Bleacheddata/portfolio-website/blob/main/src/fonts/Amaline.otf?raw=true")
+    format("opentype");
+}
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -31,7 +36,7 @@ body {
 }
 .intro-name {
   color: black;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Amaline";
   font-size: 3em;
 }
 .intro-main {
