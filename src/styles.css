@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #b79467;
+}
+body {
+  background: #000000;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  border-bottom: 2px solid black;
+}
+.Navlinks {
+  display: flex;
+}
+.Navlinks li {
+  list-style: none;
+  padding: 0 2vw;
+}
+
+#brand {
+}
+.Intro {
+  height: 1000px;
+  background: #b79467;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.intro-name {
+  color: black;
+  font-family: "Libre Baskerville", serif;
+  font-size: 3em;
+}
+.intro-main {
+  color: black;
+  font-family: "Libre Baskerville", serif;
+  font-size: 2.5em;
+}
+.Footer {
+  height: 200px;
+}
