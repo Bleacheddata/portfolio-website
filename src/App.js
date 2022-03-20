@@ -26,15 +26,15 @@ function Navbar() {
 function Intro() {
   return (
     <div className="Intro">
-      <div className="intro-name">
-        HELLO WORLD <br />
-        I'M MASOOD
+      <div className="intro-1">
+        <div className="intro-heading">
+          HELLO WORLD <br />
+          I'M MASOOD
+        </div>
       </div>
 
-      <div className="intro-main">
-        {" "}
-        <div> Front-End and Software Developer </div>
-        <div> Student at Maynooth University </div>
+      <div className="intro-2">
+        <div className="intro-2-text">Software Developer</div>
       </div>
     </div>
   );
